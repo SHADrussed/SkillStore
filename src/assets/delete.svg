@@ -1,0 +1,15 @@
+<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.000000" height="20.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_1" width="20.000000" height="20.000000" x="0.000000" y="0.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Bounding box" width="20.000000" height="20.000000" x="0.000000" y="0.000000" fill="rgb(217,217,217)" />
+		</g>
+	</mask>
+	<g id="delete" mask="url(#mask_1)">
+		<path id="delete" d="M5.83325 17.5C5.37492 17.5 4.98256 17.3368 4.65617 17.0104C4.32978 16.684 4.16659 16.2917 4.16659 15.8333L4.16659 5L3.33325 5L3.33325 3.33333L7.49992 3.33333L7.49992 2.5L12.4999 2.5L12.4999 3.33333L16.6666 3.33333L16.6666 5L15.8333 5L15.8333 15.8333C15.8333 16.2917 15.6701 16.684 15.3437 17.0104C15.0173 17.3368 14.6249 17.5 14.1666 17.5L5.83325 17.5ZM14.1666 5L5.83325 5L5.83325 15.8333L14.1666 15.8333L14.1666 5ZM7.49992 14.1667L9.16658 14.1667L9.16658 6.66667L7.49992 6.66667L7.49992 14.1667ZM10.8333 14.1667L12.4999 14.1667L12.4999 6.66667L10.8333 6.66667L10.8333 14.1667Z" fill="rgb(28,27,31)" fill-rule="nonzero" />
+	</g>
+</svg>

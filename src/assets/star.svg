@@ -1,0 +1,15 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="24.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_3" width="24.000000" height="24.000000" x="0.000000" y="0.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Bounding box" width="24.000000" height="24.000000" x="0.000000" y="0.000000" fill="rgb(217,217,217)" />
+		</g>
+	</mask>
+	<g id="star" mask="url(#mask_3)">
+		<path id="star" d="M8.85 17.5L12 15.6L15.15 17.525L14.325 13.925L17.1 11.525L13.45 11.2L12 7.8L10.55 11.175L6.9 11.5L9.675 13.925L8.85 17.5ZM7.775 18.975L8.9 14.175L5.175 10.95L10.075 10.525L12 6L13.925 10.525L18.825 10.95L15.1 14.175L16.225 18.975L12 16.425L7.775 18.975Z" fill="rgb(28,27,31)" fill-rule="nonzero" />
+	</g>
+</svg>

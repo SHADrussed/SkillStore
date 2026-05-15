@@ -1,0 +1,69 @@
+.navigationContainer {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  gap: 32px;
+}
+
+.centricNav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.categoryMenu {
+  outline: none;
+}
+.searchIcon {
+  display: flex;
+  padding: 7px;
+}
+.searchContainer {
+  box-sizing: border-box;
+  border: 1px solid rgba(242, 230, 238, 1);
+  border-radius: 30px;
+  width: 335px;
+  height: 40px;
+  display: flex;
+}
+
+.searchBar {
+  border: none;
+  background: none;
+  outline: none;
+  flex: 1;
+  height: 40px;
+}
+
+.messagesContainer {
+  display: flex;
+  border-bottom: 1px solid black;
+  gap: 6px;
+  padding-bottom: 4px;
+}
+
+.optionsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.loginButtons {
+  height: 50px;
+  text-align: center;
+  padding: 10px 26px 10px;
+  font-size: 20px;
+
+  border-radius: 15px;
+  background-color: #8e78fe;
+  color: #fff;
+  border: 1px solid #8e78fe;
+}
+.loginButtons:hover {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid black;
+}

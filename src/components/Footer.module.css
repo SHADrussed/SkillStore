@@ -1,0 +1,82 @@
+.footerContainer {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoContainer {
+  display: flex;
+  gap: 32px;
+  height: 86px;
+}
+
+.mainBlock {
+  display: flex;
+  gap: 146px;
+  text-align: left;
+}
+
+.menuContainer {
+  color: white;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.menuTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+.menuEl {
+  font-size: 14px;
+}
+
+.contactsContainer {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 6px;
+}
+.contactsTitle {
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.icons {
+  display: flex;
+  gap: 12px;
+}
+.searchBlock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
+}
+.searchBlockTitle {
+  color: black;
+}
+.searchBlockInput {
+  width: 260px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(242, 230, 238, 1);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  padding-left: 17px;
+}
+.searchBlockInput::placeholder {
+  color: gray;
+}
+.searchBlockButton {
+  width: 260px;
+  height: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(25, 63, 254, 1);
+  background: rgba(25, 63, 254, 1);
+  color: white;
+}
+.searchBlockButton:hover {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}

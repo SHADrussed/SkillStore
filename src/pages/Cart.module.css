@@ -1,0 +1,126 @@
+.cartCont {
+  width: 1240px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 144px;
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: space-around;
+}
+.left {
+  width: 730px;
+  border-radius: 25px;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.info {
+  display: flex;
+  align-items: flex-end;
+  gap: 32px;
+  margin-top: 100px;
+  margin-bottom: 66px;
+}
+.title {
+  font-size: 64px;
+  font-weight: 400;
+  text-align: left;
+}
+.count {
+  font-size: 32px;
+}
+.allOptions {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgba(242, 230, 238, 1);
+  margin-bottom: 42px;
+  padding-bottom: 1px;
+}
+.selectBox {
+  display: flex;
+  align-items: center;
+}
+.selectAll {
+  width: 22px;
+  height: 22px; /* Рамка для контраста */
+  border-radius: 5px; /* Скругление углов для квадратной формы */
+  margin-right: 10px; /* Отступ между кнопками */
+
+  position: relative;
+}
+
+.selectAll span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; /* Скругление внутренних углов */
+
+  background: rgba(242, 230, 238, 1);
+  transition: background 0.3s; /* Плавное изменение при выборе */
+
+  position: absolute;
+  top: 0px;
+}
+.selectAll span:hover {
+  background: gray;
+}
+
+.selectAll input:checked + span {
+  background: #007bff; /* Цвет при выборе */
+}
+.icons {
+  display: flex;
+  gap: 18px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 5px;
+  border: none;
+  background: rgba(242, 230, 238, 1);
+  transition: background 0.3s;
+}
+.icon:hover {
+  background: #007bff;
+}
+.cartItems {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 32px;
+  align-self: flex-start;
+  width: 355px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+}
+.rightTitle {
+  text-align: start;
+  font-size: 24px;
+}
+.numbers {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.total {
+  text-align: left;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
